@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 description = "Block URA's automatic asset cleanup (voice/model files) for Hachimi"
 license = "GPL-3.0-or-later"
-repository = "https://github.com/Yuweisha/AssetCleanupGuard"
+repository = "https://github.com/Yuweisha/UmaDeleteKiller"
 
 [lib]
 name = "assetcleanupguard"
