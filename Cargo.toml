@@ -1,0 +1,21 @@
+[package]
+name = "assetcleanupguard"
+version = "0.1.0"
+edition = "2021"
+description = "Block URA's automatic asset cleanup (voice/model files) for Hachimi"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/Yuweisha/AssetCleanupGuard"
+
+[lib]
+name = "assetcleanupguard"
+crate-type = ["cdylib"]
+
+[profile.release]
+opt-level = "z"
+lto = true
+codegen-units = 1
+panic = "abort"
+strip = true
+
+[dependencies]
+once_cell = "1.19"
